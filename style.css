@@ -13,8 +13,14 @@ body,
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  font-family: "Roboto", sans-serif;
+  background-color: #222121;
+  background-image: linear-gradient(
+    136deg,
+    #222121 0%,
+    #4e4f52 50%,
+    #0a0909 100%
+  );
 }
 
 .wrapper {
@@ -28,6 +34,10 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+}
+
+header > h1 {
+  color: rgb(238, 237, 221);
 }
 
 .card {
